@@ -13,13 +13,13 @@ const App = () => {
   return (
     <BrowserRouter>
       <Navbar/>
-      <Home/ >
-      <About/ >
-      <Contact/ >
-      <Gallery/ >
-      <NotFound/ >
-      <Plans/ >
-      <Trainers/ >
+      <Home/>
+      <About/>
+      <Contact/>
+      <Gallery/>
+      <NotFound/>
+      <Plans/>
+      <Trainers/>
     </BrowserRouter>
   )
 }
