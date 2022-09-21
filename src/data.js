@@ -1,4 +1,4 @@
-import {SiOpenaigym} from 'react-icons/Si'
+import {SiOpenaigym} from 'react-icons/si'
 
 export const links = [
   {
