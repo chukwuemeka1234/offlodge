@@ -1,5 +1,5 @@
 import {Link, NavLink} from 'react-router-dom'
-import Logo from '../images/1.png'
+import Logo from '../images/2.png'
 import {links} from '../data'
 import {GoThreeBars} from 'react-icons/go'
 import './navbar.css'
