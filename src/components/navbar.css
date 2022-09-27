@@ -49,7 +49,7 @@ nav {
   position: relative;
 }
 
-.active-nav::after {
+.active-nav::before {
   content: '';
   display: block;
   width: 1.2rem;
@@ -59,4 +59,36 @@ nav {
   left: calc(50% - 0.6rem);
   transform: rotate(45deg);
   margin-top: 2rem;
+}
+
+/* MEDIA QUERIES (medium and small screens)*/
+@media screen and (max-width: 1024px) {
+  .nav__toggle-btn {
+    display: inline-block;
+    background: transparent;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .nav__toggle-btn svg {
+    color: var(--color-gray-100);
+  }
+
+  .nav__links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .active-nav, .active-nav::after {
+    display: none;
+  }
+
+  .nav__links li {
+    height: 4rem;
+    width: 100%;
+    box-shadow: -2rem 2rem 5rem rgba(0, 0, 0, 0.4);
+  }
 }
