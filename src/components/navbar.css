@@ -63,11 +63,16 @@ nav {
 
 /* MEDIA QUERIES (medium and small screens)*/
 @media screen and (max-width: 1024px) {
+  nav {
+    height: 5rem;
+  }
+
   .nav__toggle-btn {
     display: inline-block;
     background: transparent;
     font-size: 1.8rem;
     cursor: pointer;
+    margin-left: 90%;
   }
 
   .nav__toggle-btn svg {
@@ -80,6 +85,7 @@ nav {
     right: 0;
     flex-direction: column;
     gap: 0;
+    margin-right: 5%;
   }
 
   .active-nav, .active-nav::after {
@@ -98,7 +104,7 @@ nav {
     width: 100%;
     display: flex;
     align-items: center;
-    padding: 1rem 5rem 1rem 3rem;
+    padding: 1rem 3rem 1rem 3rem;
   }
 
   .show__nav {

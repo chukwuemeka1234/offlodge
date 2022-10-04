@@ -3,6 +3,7 @@ import {Link, NavLink} from 'react-router-dom'
 import Logo from '../images/2.png'
 import {links} from '../data'
 import {GoThreeBars} from 'react-icons/go'
+import {MdOutlineClose} from 'react-icons/md'
 import './navbar.css'
 
 const Navbar = () => {
@@ -18,7 +19,7 @@ const Navbar = () => {
           {
             links.map(({name, path}, index) => {
               return (
-                <li>
+                <li key={index}>
                   <NavLink to={path} className={({isActive}) => isActive ? 'active-nav' : ''}>{name}</NavLink>
                 </li>
               )
@@ -26,7 +27,9 @@ const Navbar = () => {
           }
         </ul>
         <button className="nav__toggle-btn" onClick={() => setIsNavShowing (!isNavShowing)}>
-          <GoThreeBars/>
+          {
+            isNavShowing ? <MdOutlineClose/> : <GoThreeBars/>
+          }
         </button>
       </div>
     </nav>
