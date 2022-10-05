@@ -114,4 +114,8 @@ nav {
   .hide__nav {
     display: none;
   }
+
+  .logo {
+    width: 10rem;
+  }
 }
