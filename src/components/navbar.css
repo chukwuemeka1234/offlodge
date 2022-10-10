@@ -23,11 +23,10 @@ nav {
 }
 
 .logo {
-  width: 7rem;
   position: absolute;
   top: 0;
   left: 0;
-  width: 26%;
+  width: 35%;
 }
 
 .nav__links {
@@ -86,6 +85,7 @@ nav {
     flex-direction: column;
     gap: 0;
     margin-right: 5%;
+    perspective: 400px;
   }
 
   .active-nav, .active-nav::after {
@@ -151,6 +151,29 @@ nav {
   }
 
   .logo {
-    width: 10rem;
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 46%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  nav {
+    height: 4rem;
+  }
+
+  .logo {
+    width: 50%;
+    margin-top: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 2560px) {
+  nav {
+    height: 13rem;
   }
 }
