@@ -26,7 +26,7 @@ nav {
   position: absolute;
   top: 0;
   left: 0;
-  width: 35%;
+  width: 25%;
 }
 
 .nav__links {
@@ -169,11 +169,5 @@ nav {
   .logo {
     width: 50%;
     margin-top: 0.7rem;
-  }
-}
-
-@media screen and (max-width: 2560px) {
-  nav {
-    height: 13rem;
   }
 }
