@@ -20,13 +20,13 @@ const Navbar = () => {
             links.map(({name, path}, index) => {
               return (
                 <li key={index}>
-                  <NavLink to={path} className={({isActive}) => isActive ? 'active-nav' : ''}>{name}</NavLink>
+                  <NavLink to={path} className={({isActive}) => isActive ? 'active-nav' : ''} onClick={() => setIsNavShowing (prev => !prev)}>{name}</NavLink>
                 </li>
               )
             })
           }
         </ul>
-        <button className="nav__toggle-btn" onClick={() => setIsNavShowing (!isNavShowing)}>
+        <button className="nav__toggle-btn" onClick={() => setIsNavShowing (prev => !prev)}>
           {
             isNavShowing ? <MdOutlineClose/> : <GoThreeBars/>
           }
