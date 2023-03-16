@@ -48,17 +48,17 @@ nav {
   position: relative;
 }
 
-/* .active-nav::before {
+.active-nav::after {
   content: '';
   display: block;
   width: 1.2rem;
   height: 1.2rem;
-  background: red;
+  background: var(--color-primary);
   position: absolute;
   left: calc(50% - 0.6rem);
   transform: rotate(45deg);
   margin-top: 2rem;
-} */
+}
 
 /* MEDIA QUERIES (medium and small screens)*/
 @media screen and (max-width: 1024px) {

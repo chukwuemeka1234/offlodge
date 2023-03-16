@@ -1,6 +1,6 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
-import Home from './pages/home/Home'
+import HomeMain from './pages/home/HomeMain'
 import About from './pages/about/About'
 import Contact from './pages/contact/Contact'
 import Gallery from './pages/gallery/Gallery'
@@ -13,7 +13,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Navbar/>
-      <Home/>
+      <HomeMain/>
       <About/>
       <Contact/>
       <Gallery/>
