@@ -1,6 +1,6 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
-import HomeMain from './pages/home/HomeMain'
+import Home from './pages/home/Home'
 import About from './pages/about/About'
 import Contact from './pages/contact/Contact'
 import Gallery from './pages/gallery/Gallery'
@@ -14,7 +14,7 @@ const App = () => {
     <BrowserRouter>
       <Navbar/>
       <Routes>
-        <Route index element={<HomeMain/>}/>
+        <Route index element={<Home/>}/>
         <Route path='about' element={<About/>}/>
         <Route path='contact' element={<Contact/>}/>
         <Route path='gallery' element={<Gallery/>}/>
