@@ -93,27 +93,27 @@ export const faqs = [
   },
   {
     id: 2,
-    question: "How often should I exercise?",
+    question: "What time is the best for workout?",
     answer: "You should exercise weekly. Onc or twice in a week to gain much fitness. You can decide to go to the gym and train there."
   },
   {
     id: 3,
-    question: "How often should I exercise?",
+    question: "How long should my workouts be?",
     answer: "You should exercise weekly. Onc or twice in a week to gain much fitness. You can decide to go to the gym and train there."
   },
   {
     id: 4,
-    question: "How often should I exercise?",
+    question: "Do I need to warm up before my workouts?",
     answer: "You should exercise weekly. Onc or twice in a week to gain much fitness. You can decide to go to the gym and train there."
   },
   {
     id: 5,
-    question: "How often should I exercise?",
+    question: "Should I do strength training, cardio or both?",
     answer: "You should exercise weekly. Onc or twice in a week to gain much fitness. You can decide to go to the gym and train there."
   },
   {
     id: 6,
-    question: "How often should I exercise?",
+    question: "Should I lift weights for strength training?",
     answer: "You should exercise weekly. Onc or twice in a week to gain much fitness. You can decide to go to the gym and train there."
   }
 ]
