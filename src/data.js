@@ -117,3 +117,42 @@ export const faqs = [
     answer: "You should exercise weekly. Once or twice in a week to gain much fitness. You can decide to go to the gym and train there."
   }
 ]
+
+
+export const testimonials = [
+  {
+    id: 1,
+    name: "Gracious Obi",
+    quote: "I had better results with my health within months after working out than I had been running once a week for over a decade. Not only is this beneficial to me, but also for the instructors who treats me with absolute amazing care.",
+    job: "Student",
+    avatar: require("./images/gym-img.jpg")
+  },
+  {
+    id: 2,
+    name: "Gracious Obi",
+    quote: "I had better results with my health within months after working out than I had been running once a week for over a decade. Not only is this beneficial to me, but also for the instructors who treats me with absolute amazing care.",
+    job: "Student",
+    avatar: require("./images/gym-img.jpg")
+  },
+  {
+    id: 3,
+    name: "Gracious Obi",
+    quote: "I had better results with my health within months after working out than I had been running once a week for over a decade. Not only is this beneficial to me, but also for the instructors who treats me with absolute amazing care.",
+    job: "Student",
+    avatar: require("./images/gym-img.jpg")
+  },
+  {
+    id: 4,
+    name: "Gracious Obi",
+    quote: "I had better results with my health within months after working out than I had been running once a week for over a decade. Not only is this beneficial to me, but also for the instructors who treats me with absolute amazing care.",
+    job: "Student",
+    avatar: require("./images/gym-img.jpg")
+  },
+  {
+    id: 5,
+    name: "Gracious Obi",
+    quote: "I had better results with my health within months after working out than I had been running once a week for over a decade. Not only is this beneficial to me, but also for the instructors who treats me with absolute amazing care.",
+    job: "Student",
+    avatar: require("./images/gym-img.jpg")
+  }
+]
