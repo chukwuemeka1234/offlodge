@@ -8,6 +8,17 @@ import {useState} from "react"
 const Testimonials = () => {
   const [index, setIndex] = useState(0)
   const {name, quote, job, avatar} = testimonials[index];
+
+  const prevTestimonialHandler = () => {
+
+  }
+
+  const nextTestimonialHandler = () => {
+    setIndex(prev => + 1);
+    if(index >= testimonials.length - 1) {
+      setIndex(0);
+    }
+  }
   return (
     <section className="testimonials">
       <div className="testimonials__container">
@@ -21,8 +32,8 @@ const Testimonials = () => {
           <small className="testimonial__title">{job}</small>
         </Card>
         <div className="testimonials__btn-container">
-          <button className="testimonials__btn"><IoIosArrowDropleftCircle/></button>
-          <button className="testimonials__btn"><IoIosArrowDroprightCircle/></button>
+          <button className="testimonials__btn" onClick={prevTestimonialHandler}><IoIosArrowDropleftCircle/></button>
+          <button className="testimonials__btn" onClick={nextTestimonialHandler}><IoIosArrowDroprightCircle/></button>
         </div>
       </div>
     </section>
