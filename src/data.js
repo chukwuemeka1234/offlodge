@@ -125,34 +125,34 @@ export const testimonials = [
     name: "Gracious Obi",
     quote: "I had better results with my health within months after working out than I had been running once a week for over a decade. Not only is this beneficial to me, but also for the instructors who treats me with absolute amazing care.",
     job: "Student",
-    avatar: require("./images/gym-img.jpg")
+    avatar: require("./images/vic-original-2.jpg")
   },
   {
     id: 2,
     name: "Gracious Obi",
     quote: "I had better results with my health within months after working out than I had been running once a week for over a decade. Not only is this beneficial to me, but also for the instructors who treats me with absolute amazing care.",
     job: "Student",
-    avatar: require("./images/gym-img.jpg")
+    avatar: require("./images/avatar1.jpg")
   },
   {
     id: 3,
     name: "Gracious Obi",
     quote: "I had better results with my health within months after working out than I had been running once a week for over a decade. Not only is this beneficial to me, but also for the instructors who treats me with absolute amazing care.",
     job: "Student",
-    avatar: require("./images/gym-img.jpg")
+    avatar: require("./images/avatar2.jpg")
   },
   {
     id: 4,
     name: "Gracious Obi",
     quote: "I had better results with my health within months after working out than I had been running once a week for over a decade. Not only is this beneficial to me, but also for the instructors who treats me with absolute amazing care.",
     job: "Student",
-    avatar: require("./images/gym-img.jpg")
+    avatar: require("./images/avatar3.jpg")
   },
   {
     id: 5,
     name: "Gracious Obi",
     quote: "I had better results with my health within months after working out than I had been running once a week for over a decade. Not only is this beneficial to me, but also for the instructors who treats me with absolute amazing care.",
     job: "Student",
-    avatar: require("./images/gym-img.jpg")
+    avatar: require("./images/avatar4.jpg")
   }
 ]
