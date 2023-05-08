@@ -4,6 +4,7 @@ import Values from '../../components/Values';
 import FAQs from '../../components/FAQs';
 import Testimonials from '../../components/Testimonials';
 import './home.css';
+import Footer from '../../components/Footer';
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
     <Values />
     <FAQs/>
     <Testimonials/>
+    <Footer/>
     </>
   )
 }
