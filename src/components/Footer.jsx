@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom'
-import Logo from '../images/2.png'
+import Logo from '../images/5.png'
 import { FaLinkedin } from 'react-icons/fa'
 import { FaFacebook } from 'react-icons/fa'
 import { AiOutlineTwitter } from 'react-icons/ai'
