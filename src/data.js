@@ -156,3 +156,70 @@ export const testimonials = [
     avatar: require("./images/avatar4.jpg")
   }
 ]
+
+
+export const plans = [
+  {
+    id: 1,
+    name: 'Silver Package',
+    desc: 'This package is perfect for beginners who need constsant help',
+    price: 39.99,
+    features: [
+      {feature: 'First Feature', available: true},
+      {feature: 'Second Feature', available: true},
+      {feature: 'Third Feature', available: true},
+      {feature: 'Fourth Feature', available: true},
+      {feature: 'Fifth Feature', available: true},
+      {feature: 'Fifth Feature Plus', available: false},
+      {feature: 'Sixth Feature', available: false},
+      {feature: 'Seventh Feature', available: false},
+      {feature: 'Seventh Feature Plus', available: false},
+      {feature: 'Eight Feature', available: false},
+      {feature: 'Ninth Feature', available: false},
+      {feature: 'Tenth Feature', available: false},
+      {feature: 'Eleventh Feature', available: false},
+    ]
+  },
+  {
+    id: 2,
+    name: 'Gold Package',
+    desc: 'This is the perfect package for beginners who know what they are doing',
+    price: 59.99,
+    features: [
+      {feature: 'First Feature', available: true},
+      {feature: 'Second Feature', available: true},
+      {feature: 'Third Feature', available: true},
+      {feature: 'Fourth Feature', available: true},
+      {feature: 'Fifth Feature', available: true},
+      {feature: 'Fifth Feature Plus', available: true},
+      {feature: 'Sixth Feature', available: true},
+      {feature: 'Seventh Feature', available: true},
+      {feature: 'Seventh Feature Plus', available: true},
+      {feature: 'Eight Feature', available: false},
+      {feature: 'Ninth Feature', available: false},
+      {feature: 'Tenth Feature', available: false},
+      {feature: 'Eleventh Feature', available: false},
+    ]
+  },
+  {
+    id: 3,
+    name: 'Platinum Package',
+    desc: 'This package is perfect for busy people who need home service',
+    price: 99.99,
+    features: [
+      {feature: 'First Feature', available: true},
+      {feature: 'Second Feature', available: true},
+      {feature: 'Third Feature', available: true},
+      {feature: 'Fourth Feature', available: true},
+      {feature: 'Fifth Feature', available: true},
+      {feature: 'Fifth Feature Plus', available: true},
+      {feature: 'Sixth Feature', available: true},
+      {feature: 'Seventh Feature', available: true},
+      {feature: 'Seventh Feature Plus', available: true},
+      {feature: 'Eight Feature', available: true},
+      {feature: 'Ninth Feature', available: true},
+      {feature: 'Tenth Feature', available: true},
+      {feature: 'Eleventh Feature', available: true},
+    ]
+  },
+]

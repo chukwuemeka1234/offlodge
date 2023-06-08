@@ -88,7 +88,6 @@
 .values__image {
   filter: saturate(0.25);
   transition: var(--transition);
-  margin-top: 10rem;
 }
 
 .values__image:hover {
