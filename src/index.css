@@ -35,7 +35,7 @@ body {
   line-height: 1.7;
   overflow-x: hidden;
   height: 0;
-  background: var(--color-gray-600);
+  background: var(--color-gray-600) url('./images/3px-tile.png');
 }
 
 .container {

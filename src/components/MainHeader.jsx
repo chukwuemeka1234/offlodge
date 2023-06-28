@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom'
-import Image from '../images/main-img-removebg-preview.png'
+import Image from '../images/main-img-bg.png'
 
 const MainHeader = () => {
   return (
