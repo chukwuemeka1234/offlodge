@@ -3,7 +3,7 @@
   height: calc(100vh - 3rem);
   display: grid;
   place-items: center;
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 
 .main__header-container {
@@ -216,7 +216,7 @@
 footer {
   background: var(--color-primary);
   margin-top: 7rem;
-  padding-top: 7rem;
+  padding-top: 2rem;
   font-size: 0.9rem;
   color: var(--color-gray-100);
 }
@@ -276,7 +276,7 @@ footer {
   text-align: center;
   padding: 1.5rem;
   border-top: 2px solid var(--color-primary-variant);
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
 
 

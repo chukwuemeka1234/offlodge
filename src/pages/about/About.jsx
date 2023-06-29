@@ -18,9 +18,9 @@ const About = () => {
         </div>
         <div className="about__section-content">
           <h1>Our Story</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, magnam eius? Ea quidem deleniti quasi, cum nemo dolorum error corporis ducimus, voluptatibus, dolorem esse veniam cupiditate odio dicta aut fugiat.
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, magnam eius? Ea quidem deleniti quasi.
           </p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam nisi fugit laboriosam illum qui laudantium doloremque, soluta consequuntur debitis eligendi dolores optio, repudiandae odit alias et dolore veritatis ipsam recusandae.
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam nisi fugit laboriosam illum qui laudantium doloremque.
           </p>
           <p>soluta consequuntur debitis eligendi dolores optio, repudiandae odit alias et dolore veritatis ipsam recusandae.
           </p>
@@ -33,7 +33,7 @@ const About = () => {
           <h1>Our Vision</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, magnam eius? Ea quidem deleniti quasi, cum nemo dolorum error corporis ducimus, voluptatibus, dolorem esse veniam cupiditate odio dicta aut fugiat.
           </p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam nisi fugit laboriosam illum qui laudantium doloremque, soluta consequuntur debitis eligendi dolores optio, repudiandae odit alias et dolore veritatis ipsam recusandae.
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam nisi fugit laboriosam illum qui laudantium doloremque.
           </p>
         </div>
         <div className="about__section-image">
@@ -48,9 +48,9 @@ const About = () => {
         </div>
         <div className="about__section-content">
           <h1>Our Mission</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, magnam eius? Ea quidem deleniti quasi, cum nemo dolorum error corporis ducimus, voluptatibus, dolorem esse veniam cupiditate odio dicta aut fugiat.
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, magnam eius? Ea quidem deleniti quasit.
           </p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam nisi fugit laboriosam illum qui laudantium doloremque, soluta consequuntur debitis eligendi dolores optio, repudiandae odit alias et dolore veritatis ipsam recusandae.
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam nisi fugit laboriosam illum qui laudantium doloremque.
           </p>
           <p>soluta consequuntur debitis eligendi dolores optio, repudiandae odit alias et dolore veritatis ipsam recusandae.
           </p>

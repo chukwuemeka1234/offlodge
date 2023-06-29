@@ -14,7 +14,7 @@ const Footer = () => {
           <Link to="/" className='logo-footer'>
             <img src={Logo} alt="Footer Logo" />
           </Link>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolorum at excepturi laboriosam placeat rem. Natus ducimus, maiores recusandae rerum numquam, necessitatibus temporibus minima dolorum animi similique nesciunt laudantium quibusdam.
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolorum at excepturi laboriosam placeat rem. Natus ducimus.
           </p>
           <div className="footer__socials">
             <a href="https://linkedin.com" target="blank" rel='noreferrer noopener'><FaLinkedin/></a>

@@ -3,7 +3,7 @@
   overflow: hidden;
   transform: skew(15deg);
   transition: var(--transition);
-  margin-bottom: 2rem;
+  margin-bottom: 2.7rem;
 }
 
 .about__section-image:nth-child(2) {
